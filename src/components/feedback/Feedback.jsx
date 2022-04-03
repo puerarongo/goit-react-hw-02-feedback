@@ -1,11 +1,11 @@
 import React from "react";
 
-const Feedback = ({options, onLeaveFeedback }) => {
+const Feedback = ({options}) => {
     return (
         <div>
-            <button type="button" name="good" onClick={this.count}>Good</button>
-            <button type="button" name="neutral" onClick={this.count}>Neutral</button>
-            <button type="button" name="bad" onClick={this.count}>Bad</button>
+            <button type="button" name="good" onClick={options}>Good</button>
+            <button type="button" name="neutral" onClick={options}>Neutral</button>
+            <button type="button" name="bad" onClick={options}>Bad</button>
         </div>
     )
 };
